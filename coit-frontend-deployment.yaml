@@ -26,6 +26,5 @@ spec:
           name: coit-frontend
           ports:
             - containerPort: 80
-          volumeMounts:
-            - mountPath: /var/www/html
-              name: nginx-root
+          
+          
